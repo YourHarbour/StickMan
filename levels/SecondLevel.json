@@ -1,0 +1,28 @@
+{
+  "stickmanSize": "normal",
+  "stickmanPos": {
+    "x": 50.0
+  },
+  "cloudVelocity": 3.2,
+  "levelDimensions": {
+    "width": 600.0,
+    "height": 1000.0,
+    "floorHeight": 900.0
+  },
+  "platforms": [
+  ],
+  "mushrooms": [
+    {
+      "x": 100.0,
+      "y": 880.0
+    }
+  ],
+  "enemies": [
+  ],
+  "flag": {
+    "x": 200.0,
+    "y": 860.0
+  },
+  "recommend": 10,
+  "hp": "3"
+}

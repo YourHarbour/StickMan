@@ -1,0 +1,100 @@
+{
+  "stickmanSize": "normal",
+  "stickmanPos": {
+    "x": 50.0
+  },
+  "cloudVelocity": 3.2,
+  "levelDimensions": {
+    "width": 600.0,
+    "height": 1000.0,
+    "floorHeight": 900.0
+  },
+  "platforms": [
+    {
+      "x": 120.0,
+      "y": 600.0
+    },
+    {
+      "x": 220.0,
+      "y": 600.0
+    },
+    {
+      "x": 220.0,
+      "y": 600.0
+    },
+    {
+      "x": 240.0,
+      "y": 600.0
+    },
+    {
+      "x": 300.0,
+      "y": 600.0
+    },
+    {
+      "x": 320.0,
+      "y": 660.0
+    },
+    {
+      "x": 340.0,
+      "y": 600.0
+    },
+    {
+      "x": 360.0,
+      "y": 660.0
+    },
+    {
+      "x": 450.0,
+      "y": 600.0
+    },
+    {
+      "x": 500.0,
+      "y": 660.0
+    },
+    {
+      "x": 520.0,
+      "y": 600.0
+    }
+  ],
+  "mushrooms": [
+    {
+      "x": 100.0,
+      "y": 880.0
+    }
+  ],
+  "enemies": [
+    {
+      "x": 140.0,
+      "y": 700.0,
+      "path": "slimeBa.png",
+      "startLeft": false,
+      "strategy": "dumb"
+    },
+    {
+      "x": 380.0,
+      "y": 700.0,
+      "path": "slimeGa.png",
+      "startLeft": true,
+      "strategy": "dumb"
+    },
+    {
+      "x": 550.0,
+      "y": 700.0,
+      "path": "slimeYa.png",
+      "startLeft": true,
+      "strategy": "follow"
+    },
+    {
+      "x": 700.0,
+      "y": 700.0,
+      "path": "slimeYa.png",
+      "startLeft": false,
+      "strategy": "follow"
+    }
+  ],
+  "flag": {
+    "x": 500.0,
+    "y": 860.0
+  },
+  "recommend": 20,
+  "hp": "3"
+}
